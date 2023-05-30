@@ -1,0 +1,12 @@
+git init
+git remote add origin link(https://github.com/Biken10/MER-TRAINING)
+git remote -v(optional to check)
+git status
+
+
+git hints
+U( new files/untracked files)
+A-added//ready to be added 
+git add (file name ) or . which means all
+git commit -m "message"
+git push 
