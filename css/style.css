@@ -1,0 +1,50 @@
+html{
+    scroll-behavior: smooth;
+}
+a{
+    color:rgb(16, 16, 16);
+    text-decoration: none;
+    text-transform: capitalize;
+ }
+ a:hover{
+    color:black;
+    text-decoration:underline;
+text-underline-offset: 3px;
+ }
+ 
+ nav ul{
+list-style-type:none;
+ }
+ .active-link{
+    color: red;
+    text-decoration:underline;
+    text-underline-offset: 4px;
+ }
+ .bold {
+ font-weight: 900;
+ }
+ nav li {
+display:inline;
+ }
+ nav ul li {
+    display: inline;
+ }
+/*#box,#box2,box3{}*/
+
+ .box,.child {
+
+height: 100px;
+width: 100px;
+border:1px solid black;
+ }
+ li.red {
+   color: red;
+ }
+ .box.red {
+  background-color: red;
+ }
+
+ .child p{
+   color:red;
+ }
+ 
