@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+
+        div {
+            border: 1px solid red;
+        }
+
+        div {
+            border: 5px solid green;
+        }
+
+        .box{
+            border: 10px solid cyan;
+        }
+    div.box#black-border{
+        border: 10px solid red;
+    }
+    html body div .box#black-border{
+        border: 1px solid black;
+    }
+    div{
+        border: 10px dashed green !important ;
+    }
+    div.box{
+        border: 10px dashed red !important ;
+    }
+
+/*id>class>tag (000)
+ selctor specify */
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <ul style="display: inline,;">
+
+                <li><a href="./index.html">home</a></li>
+                <li><a href="./courses/mern.html">Mern</a></li>
+                <li><a href="./about.html">about</a></li>
+                <li><a href="./courses/current/python.html">python</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Score</h1>
+    <p>
+        important>inline>id>class>tag(000)
+    </p>
+    <div>
+        scorecard
+    </div>
+  <div class="box" id="black-border">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum perspiciatis laborum nemo ipsum sit aspernatur rerum iure. Fugit sit expedita doloribus commodi quas. Suscipit dolorum eius tenetur beatae nam minus!
+    </p>
+  </div>
+
+
+</body>
+
+</html>
