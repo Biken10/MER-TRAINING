@@ -10,4 +10,7 @@ git push
 git hints
 U( new files/untracked files)
 A-added//ready to be added 
+git pull 
+git branch 
+git checkout master
 
