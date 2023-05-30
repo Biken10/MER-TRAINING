@@ -13,4 +13,5 @@ A-added//ready to be added
 git pull 
 git branch 
 git checkout master
-
+git checkout -b "name"
+git merge "name"
