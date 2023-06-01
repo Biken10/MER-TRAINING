@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    * {
+        /* padding: 0px; */
+        box-sizing: border-box;
+    }
+/* li{
+    display: inline;
+} */
+.logo{
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;}
+
+    /* ul{
+display: inline-block;
+
+    } */
+.first ul{
+    display: inline-block;
+}
+.first li{
+    display:inline;
+}
+.second ul{
+    display: flex;
+    gap: 1rem;
+    text-align:center;
+    list-style:none;
+}
+/* header{
+    display:none;
+} */
+.flex-box{
+    background-color: orange;
+    height: 400px;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+align-items: center;
+/* align-content: center; */
+}
+.flex-item{
+    height:100px;
+    width: 100px;
+border: 1px solid;
+}
+</style>
+</head>
+<body>
+  
+    <header class="first">
+        <nav>
+            <span class="logo">
+                LOGO
+            </span>
+        
+            <ul>
+        
+        <li><a href="./index.html">home</a></li>
+        <li><a href="./index.html">about</a></li>
+        <li><a href="./index.html">contact</a></li>
+        </ul>
+        </nav>
+        
+        </header>
+        <hr>
+
+        <header class="second">
+            <nav>
+                <span class="logo">
+                    LOGO
+                </span>
+            
+                <ul>
+            
+            <li><a href="./index.html">home</a></li>
+            <li><a href="./index.html">about</a></li>
+            <li><a href="./index.html">contact</a></li>
+            </ul>
+            </nav>
+            
+            </header>
+            <ul>
+                <li>
+                    <span>justify-content</span>
+                    <ul>
+                        <li>start </li>
+                        <li>center </li>
+<li> end</li>
+<li> space-between </li>
+                </ul>
+                <br>
+                <li>
+                    <span>allign-text </span>
+                    <ul>
+                        <li>center </li>
+                 
+            </ul>
+            <div class="flex-box">
+<div class="flex-item"></div>
+<div class="flex-item"></div>
+<div class="flex-item"></div>
+<div class="flex-item"></div>
+<div class="flex-item"></div>
+
+            </div>
+ 
+</body>
+</html>

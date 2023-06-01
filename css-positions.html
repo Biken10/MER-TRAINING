@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+}
+.static{
+    position: static;
+}
+.relative{
+    position: relative;
+    left: 150px;
+    top:10px;
+}
+.absolute{
+    background-color: blue;
+position: absolute;
+right: 0;
+top: 0;
+}
+.sticky{
+    position: sticky;
+    background-color: blanchedalmond;
+    right: 10px;
+    height: 50px;
+    width: 100%;
+    top:0;
+}
+.fixed{
+    position: fixed;
+    background-color: bisque;
+    top: 0px;
+    left:31px;
+    z-index: 1;
+}
+    </style>
+</head>
+
+<body>
+ <h1>Css positions</h1>  
+<ul>
+<li>static</li>
+<li>Relative</li>
+<li>absolute</li>
+<li>fixed</li>
+<li>sticky</li>
+</ul>
+<div class="box static">static</div>
+<div class="box relative">  Relative</div>
+<div class="box absolute">  absolute one</div>
+<div class="box absolute two">  absolute two</div>
+<div class="box fixed">fixed</div>
+<div class="box sticky"> sticky</div>
+
+</body>
+</html>
