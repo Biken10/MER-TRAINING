@@ -25,14 +25,14 @@
         }
 
         img {
-            width: 200px;
+            width:100%;
         }
 
         .projects {
             padding: 2rem;
-            display: flex;
+            /* display: flex; */
             gap: 1rem;
-            justify-content: center;
+            /* justify-content: center; */
         }
 
         h2.projects {
@@ -61,6 +61,44 @@
         .project p {
             text-align: justify;
         }
+
+        @media (min-width:556px) {
+            .projects {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .project{
+                width: 40%;
+
+            }
+        }
+        @media (min-width:992px) {
+            
+            .project{
+                width: 28%;
+
+            }
+        }
+        @media (min-width:1200px) {
+            
+            .project{
+                width: 21%;
+
+            }
+        }
+        .project:hover{
+            transform: translate(5px,-5px);
+            transition: all .5s;
+             
+        }
+        .project:hover img{
+            transform:scale(1.1);
+            transition: all .5s;
+             
+        }
+
+       
            
     </style>
 </head>

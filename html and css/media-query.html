@@ -25,13 +25,13 @@
         }
 
         img {
-            width: 200px;
+            width: 100%;
         }
 
         .projects {
+         gap: 1rem;
             padding: 2rem;
             display: flex;
-            gap: 1rem;
             justify-content: center;
             flex-wrap: wrap;
         }
@@ -42,16 +42,17 @@
             padding: 1rem;
         }
 
-        .project{
-            width: 22% ;
+        .project {
+            width: 22%;
             text-align: center;
-            padding: 1.5rem;
-            margin: 1rem;
             background-color: beige;
             border-radius: 1rem;
-            color: black;
-            box-shadow: 10px 10px 10px 1px grey;
+            padding: 1.5rem;
+            margin-top: 1rem;
+            color: #090808;
+            box-shadow: 10px 10px 13px 1px gray;
         }
+
 
         .project h3 {
             font-size: 2rem;
@@ -63,36 +64,28 @@
         .project p {
             text-align: justify;
         }
-         @media (max-width:1199px)
-         {
-            .project{
+
+        @media (max-width:991px) {
+            .project {
                 /* flex-direction: column; */
                 width: 31%;
             }
-         } 
-       
-         @media (max-width:991px)
-         {
-            .project{
+        }
+
+        @media (max-width:758px) {
+            .project {
                 /* flex-direction: column; */
-                width: 48%;
+                width: 45%;
             }
-         } 
-         @media (max-width:758px)
-         {
-            .project{
-                /* flex-direction: column; */
-                width: 75%;
-            }
-         } 
-         @media (max-width:576px)
-         {
-            .project{
+        }
+
+        @media (max-width:576px) {
+            .project {
                 /* flex-direction: column; */
                 width: 100%;
             }
-         } 
-         </style>
+        }
+    </style>
 </head>
 
 <body>
@@ -100,7 +93,7 @@
     <hr>
     <h2 class="projects">projects</h2>
     <div class="projects">
-        
+
         <div class="project">
             <img src="./git.png" />
             <h3>git</h3>
