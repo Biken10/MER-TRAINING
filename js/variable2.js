@@ -67,6 +67,10 @@ console.log(brand);
     // <property>:value;
     // <attribute>:value;
     // }
-let 
-
+let projector ={
+    sellingPrice:5000,
+    costPrice:400,
+    color:"white",
+}
+console.log(projector);
 
