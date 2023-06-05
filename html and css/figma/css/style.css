@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+/* typography */
+html{
+    color:#4F5665;
+    font-size: 16px;
+    font-family: 'Rubik', 'Roboto',sans-serif;
+}
+
+/* global css */
+
+header nav,header ul,header .logo-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:.5rem;
+}
+.logo-wrapper{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+}
+.logo-wrapper,.extrabold{
+    font-weight: 900;
+}
+
