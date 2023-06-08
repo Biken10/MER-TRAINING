@@ -80,3 +80,34 @@ let courses = [
 ]
 // console.log(courses)
 
+let laptop ={
+    brand:"Acer",
+    processor:"i5",
+    generation:"5"
+}
+
+
+console.log("before" ,laptop.processor)
+laptop.processor="i7"
+console.log("after",laptop.processor )
+
+
+let teal ={
+color:"teal",
+hexValue:"#AAAA"
+}
+let colors =[
+    {
+        color:"white",
+        hexValue:"#FFFF"
+    },
+    {
+        color:"black",
+        hexValue:"#ffgh"
+    },
+    teal 
+]
+console.log(colors)
+console.log("the color is "+teal.color);
+
+
