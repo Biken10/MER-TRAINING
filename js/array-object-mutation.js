@@ -69,6 +69,23 @@ console.log(`${students[3].name}'s phone is ${students[3].phone}`)
 
 
 
+// do  not repeat yurself
+
+let studentes =[{
+    roll:1,
+    courses:["web","mobile"]
+},
+{
+ roll:2,
+ courses:["web","graophic"]
+}
+]
+console.log("before "+studentes[1].courses[1])
+studentes[1].courses[1]="mobile"
+console.log("after "+studentes[1].courses[1])
+console.log(studentes)
+
+
 
 
 

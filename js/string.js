@@ -17,3 +17,4 @@ console.log(`the phone no of ${person.name} is ${person.phnNo }` )
 
 let courses=["web","mern"]
 console.log(`in oth index we have ${courses[0]}`)
+
